@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [example suite 1]">
+  <test thread-count="5" name="Regression suite 1(failed)">
+    <classes>
+      <class name="com.testclasses.EnrollAPI">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="test"/>
+          <include name="afterClass"/>
+          <include name="beforeSuite"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.testclasses.EnrollAPI -->
+      <class name="com.testclasses.RevokeAPI">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="afterClass"/>
+          <include name="beforeSuite"/>
+          <include name="test"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.testclasses.RevokeAPI -->
+      <class name="com.testclasses.ReplaceAPI">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="afterClass"/>
+          <include name="beforeSuite"/>
+          <include name="test"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.testclasses.ReplaceAPI -->
+    </classes>
+  </test> <!-- Regression suite 1(failed) -->
+</suite> <!-- Failed suite [example suite 1] -->

@@ -1,0 +1,23 @@
+[
+    {
+      "id":"123",
+      "name": "testcase1",
+      "description": "revoketestcase1",
+      "key1":"abc",
+      "key2":"jadu"
+    },
+    {
+      "id":"124",
+      "name": "testcase2",
+      "description": "revoketestcase2",
+      "key1":"abc",
+      "key2":"jadu"
+    },
+    {
+      "id":"125",
+      "name": "testcase3",
+      "description": "revoketestcase3",
+      "key1":"abc",
+      "key2":"jadu"
+    }
+]

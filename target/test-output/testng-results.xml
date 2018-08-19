@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="example suite 1" duration-ms="23" started-at="2018-08-17T03:17:43Z" finished-at="2018-08-17T03:17:43Z">
+    <groups>
+    </groups>
+    <test name="Regression suite 1" duration-ms="23" started-at="2018-08-17T03:17:43Z" finished-at="2018-08-17T03:17:43Z">
+      <class name="com.first.example.DemoTwo">
+        <test-method status="PASS" signature="test2()[pri:0, instance:com.first.example.DemoTwo@47fd17e3]" name="test2" duration-ms="0" started-at="2018-08-17T03:17:43Z" finished-at="2018-08-17T03:17:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- com.first.example.DemoTwo -->
+      <class name="com.second.example.DemoThree">
+        <test-method status="PASS" signature="test3()[pri:0, instance:com.second.example.DemoThree@7cdbc5d3]" name="test3" duration-ms="0" started-at="2018-08-17T03:17:43Z" finished-at="2018-08-17T03:17:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+      </class> <!-- com.second.example.DemoThree -->
+      <class name="com.first.example.DemoOne">
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.first.example.DemoOne@34033bd0]" name="test1" duration-ms="5" started-at="2018-08-17T03:17:43Z" finished-at="2018-08-17T03:17:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- com.first.example.DemoOne -->
+    </test> <!-- Regression suite 1 -->
+  </suite> <!-- example suite 1 -->
+</testng-results>
