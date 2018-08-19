@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="4" total="13" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name="example suite 1" duration-ms="427" started-at="2018-08-19T04:49:13Z" finished-at="2018-08-19T04:49:13Z">
+  <suite name="example suite 1" duration-ms="440" started-at="2018-08-19T07:16:03Z" finished-at="2018-08-19T07:16:04Z">
     <groups>
     </groups>
-    <test name="Regression suite 1" duration-ms="427" started-at="2018-08-19T04:49:13Z" finished-at="2018-08-19T04:49:13Z">
+    <test name="Regression suite 1" duration-ms="440" started-at="2018-08-19T07:16:03Z" finished-at="2018-08-19T07:16:04Z">
       <class name="com.testclasses.FirstAPI">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.testclasses.FirstAPI@67b92f0a]" name="beforeSuite" is-config="true" duration-ms="9" started-at="2018-08-19T04:49:13Z" finished-at="2018-08-19T04:49:13Z">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.testclasses.FirstAPI@67b92f0a]" name="beforeSuite" is-config="true" duration-ms="8" started-at="2018-08-19T07:16:03Z" finished-at="2018-08-19T07:16:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.testclasses.FirstAPI@67b92f0a]" name="beforeClass" is-config="true" duration-ms="1" started-at="2018-08-19T04:49:13Z" finished-at="2018-08-19T04:49:13Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.testclasses.FirstAPI@67b92f0a]" name="beforeClass" is-config="true" duration-ms="1" started-at="2018-08-19T07:16:03Z" finished-at="2018-08-19T07:16:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="test(java.util.Map)[pri:0, instance:com.testclasses.FirstAPI@67b92f0a]" name="test" duration-ms="9" started-at="2018-08-19T04:49:13Z" data-provider="data-provider" finished-at="2018-08-19T04:49:13Z">
+        <test-method status="PASS" signature="test(java.util.Map)[pri:0, instance:com.testclasses.FirstAPI@67b92f0a]" name="test" duration-ms="10" started-at="2018-08-19T07:16:04Z" data-provider="data-provider" finished-at="2018-08-19T07:16:04Z">
           <params>
             <param index="0">
               <value>
@@ -26,22 +26,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="test(java.util.Map)[pri:0, instance:com.testclasses.FirstAPI@67b92f0a]" name="test" duration-ms="0" started-at="2018-08-19T04:49:13Z" data-provider="data-provider" finished-at="2018-08-19T04:49:13Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{id=124, name=testcase2, description=enrolltestcase2, key1=abc, key2=jadu}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.testclasses.FirstAPI@67b92f0a]" name="afterClass" is-config="true" duration-ms="190" started-at="2018-08-19T04:49:13Z" finished-at="2018-08-19T04:49:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="test(java.util.Map)[pri:0, instance:com.testclasses.FirstAPI@67b92f0a]" name="test" duration-ms="0" started-at="2018-08-19T04:49:13Z" data-provider="data-provider" finished-at="2018-08-19T04:49:13Z">
+        <test-method status="PASS" signature="test(java.util.Map)[pri:0, instance:com.testclasses.FirstAPI@67b92f0a]" name="test" duration-ms="1" started-at="2018-08-19T07:16:04Z" data-provider="data-provider" finished-at="2018-08-19T07:16:04Z">
           <params>
             <param index="0">
               <value>
@@ -52,17 +37,32 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.testclasses.FirstAPI@67b92f0a]" name="afterSuite" is-config="true" duration-ms="52" started-at="2018-08-19T04:49:13Z" finished-at="2018-08-19T04:49:13Z">
+        <test-method status="PASS" signature="test(java.util.Map)[pri:0, instance:com.testclasses.FirstAPI@67b92f0a]" name="test" duration-ms="0" started-at="2018-08-19T07:16:04Z" data-provider="data-provider" finished-at="2018-08-19T07:16:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{id=124, name=testcase2, description=enrolltestcase2, key1=abc, key2=jadu}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.testclasses.FirstAPI@67b92f0a]" name="afterClass" is-config="true" duration-ms="196" started-at="2018-08-19T07:16:04Z" finished-at="2018-08-19T07:16:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.testclasses.FirstAPI@67b92f0a]" name="afterSuite" is-config="true" duration-ms="53" started-at="2018-08-19T07:16:04Z" finished-at="2018-08-19T07:16:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
       </class> <!-- com.testclasses.FirstAPI -->
       <class name="com.testclasses.SecondAPI">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.testclasses.SecondAPI@2b9627bc]" name="beforeClass" is-config="true" duration-ms="0" started-at="2018-08-19T04:49:13Z" finished-at="2018-08-19T04:49:13Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.testclasses.SecondAPI@2b9627bc]" name="beforeClass" is-config="true" duration-ms="0" started-at="2018-08-19T07:16:04Z" finished-at="2018-08-19T07:16:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="test(java.util.Map)[pri:0, instance:com.testclasses.SecondAPI@2b9627bc]" name="test" duration-ms="1" started-at="2018-08-19T04:49:13Z" data-provider="data-provider" finished-at="2018-08-19T04:49:13Z">
+        <test-method status="PASS" signature="test(java.util.Map)[pri:0, instance:com.testclasses.SecondAPI@2b9627bc]" name="test" duration-ms="1" started-at="2018-08-19T07:16:04Z" data-provider="data-provider" finished-at="2018-08-19T07:16:04Z">
           <params>
             <param index="0">
               <value>
@@ -73,18 +73,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="test(java.util.Map)[pri:0, instance:com.testclasses.SecondAPI@2b9627bc]" name="test" duration-ms="1" started-at="2018-08-19T04:49:13Z" data-provider="data-provider" finished-at="2018-08-19T04:49:13Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{id=125, name=testcase3, description=replacetestcase3, key1=abc, key2=jadu}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="test(java.util.Map)[pri:0, instance:com.testclasses.SecondAPI@2b9627bc]" name="test" duration-ms="0" started-at="2018-08-19T04:49:13Z" data-provider="data-provider" finished-at="2018-08-19T04:49:13Z">
+        <test-method status="PASS" signature="test(java.util.Map)[pri:0, instance:com.testclasses.SecondAPI@2b9627bc]" name="test" duration-ms="0" started-at="2018-08-19T07:16:04Z" data-provider="data-provider" finished-at="2018-08-19T07:16:04Z">
           <params>
             <param index="0">
               <value>
@@ -95,17 +84,28 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.testclasses.SecondAPI@2b9627bc]" name="afterClass" is-config="true" duration-ms="38" started-at="2018-08-19T04:49:13Z" finished-at="2018-08-19T04:49:13Z">
+        <test-method status="PASS" signature="test(java.util.Map)[pri:0, instance:com.testclasses.SecondAPI@2b9627bc]" name="test" duration-ms="0" started-at="2018-08-19T07:16:04Z" data-provider="data-provider" finished-at="2018-08-19T07:16:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{id=125, name=testcase3, description=replacetestcase3, key1=abc, key2=jadu}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.testclasses.SecondAPI@2b9627bc]" name="afterClass" is-config="true" duration-ms="37" started-at="2018-08-19T07:16:04Z" finished-at="2018-08-19T07:16:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.testclasses.SecondAPI -->
       <class name="com.testclasses.ThirdAPI">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.testclasses.ThirdAPI@65e2dbf3]" name="beforeClass" is-config="true" duration-ms="1" started-at="2018-08-19T04:49:13Z" finished-at="2018-08-19T04:49:13Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.testclasses.ThirdAPI@65e2dbf3]" name="beforeClass" is-config="true" duration-ms="1" started-at="2018-08-19T07:16:04Z" finished-at="2018-08-19T07:16:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="test(java.util.Map)[pri:0, instance:com.testclasses.ThirdAPI@65e2dbf3]" name="test" duration-ms="1" started-at="2018-08-19T04:49:13Z" data-provider="data-provider" finished-at="2018-08-19T04:49:13Z">
+        <test-method status="PASS" signature="test(java.util.Map)[pri:0, instance:com.testclasses.ThirdAPI@65e2dbf3]" name="test" duration-ms="1" started-at="2018-08-19T07:16:04Z" data-provider="data-provider" finished-at="2018-08-19T07:16:04Z">
           <params>
             <param index="0">
               <value>
@@ -116,7 +116,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="test(java.util.Map)[pri:0, instance:com.testclasses.ThirdAPI@65e2dbf3]" name="test" duration-ms="1" started-at="2018-08-19T04:49:13Z" data-provider="data-provider" finished-at="2018-08-19T04:49:13Z">
+        <test-method status="PASS" signature="test(java.util.Map)[pri:0, instance:com.testclasses.ThirdAPI@65e2dbf3]" name="test" duration-ms="0" started-at="2018-08-19T07:16:04Z" data-provider="data-provider" finished-at="2018-08-19T07:16:04Z">
           <params>
             <param index="0">
               <value>
@@ -127,7 +127,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="test(java.util.Map)[pri:0, instance:com.testclasses.ThirdAPI@65e2dbf3]" name="test" duration-ms="0" started-at="2018-08-19T04:49:13Z" data-provider="data-provider" finished-at="2018-08-19T04:49:13Z">
+        <test-method status="PASS" signature="test(java.util.Map)[pri:0, instance:com.testclasses.ThirdAPI@65e2dbf3]" name="test" duration-ms="1" started-at="2018-08-19T07:16:04Z" data-provider="data-provider" finished-at="2018-08-19T07:16:04Z">
           <params>
             <param index="0">
               <value>
@@ -138,7 +138,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.testclasses.ThirdAPI@65e2dbf3]" name="afterClass" is-config="true" duration-ms="30" started-at="2018-08-19T04:49:13Z" finished-at="2018-08-19T04:49:13Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.testclasses.ThirdAPI@65e2dbf3]" name="afterClass" is-config="true" duration-ms="32" started-at="2018-08-19T07:16:04Z" finished-at="2018-08-19T07:16:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
